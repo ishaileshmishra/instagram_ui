@@ -1,4 +1,4 @@
-# Instagram UI demo
+# Instagram ui design in flutter by @ishaileshmishra
 
 A new Flutter project.
 
