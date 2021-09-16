@@ -16,7 +16,7 @@ Container roundNetworkImageIcon(String networkImage, double size) {
       borderRadius: BorderRadius.all(Radius.circular(50.0)),
       border: Border.all(
         color: Colors.red,
-        width: 4.0,
+        width: 2.0,
       ),
     ),
   );

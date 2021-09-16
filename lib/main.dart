@@ -11,7 +11,7 @@ class InstagramApp extends StatelessWidget {
     return MaterialApp(
       title: 'Instagram',
       debugShowCheckedModeBanner: false,
-      darkTheme: ThemeData.dark(),
+      darkTheme: ThemeData.light(),
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
