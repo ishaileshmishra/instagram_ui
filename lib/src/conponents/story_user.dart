@@ -13,10 +13,9 @@ class StoryUsers extends StatelessWidget {
           name: 'Your story',
           icon:
               'https://miro.medium.com/fit/c/262/262/1*TFcPuMbp34csFMeWOymn_A.png'),
-      IconModels(
-          name: 'ishaileshmishra', icon: 'http://i.imgur.com/QSev0hg.jpg'),
-      IconModels(name: 'usarmrd', icon: 'https://i.imgur.com/vrBCHBQ.png'),
-      IconModels(name: 'askdoctor', icon: 'https://i.imgur.com/8z1zTUr.png'),
+      IconModels(name: 'mishradev', icon: 'http://i.imgur.com/QSev0hg.jpg'),
+      IconModels(name: 'instatech', icon: 'https://i.imgur.com/vrBCHBQ.png'),
+      IconModels(name: 'lovingdoc', icon: 'https://i.imgur.com/8z1zTUr.png'),
       IconModels(name: 'maintropolo', icon: 'https://i.imgur.com/bYMFaq9.jpeg'),
       IconModels(
           name: 'iamtheshankar', icon: 'https://i.imgur.com/btaOetV.jpeg'),

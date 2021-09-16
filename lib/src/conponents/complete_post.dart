@@ -13,7 +13,7 @@ Row userWithIconPreview(String username, String thumbnail) {
       SizedBox(width: 8),
       Text(
         username,
-        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+        style: TextStyle(fontSize: 16),
       ),
       Spacer(),
       Icon(Icons.more_vert)

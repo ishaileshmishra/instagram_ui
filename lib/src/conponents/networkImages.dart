@@ -14,6 +14,10 @@ Container roundNetworkImageIcon(String networkImage, double size) {
         fit: BoxFit.cover,
       ),
       borderRadius: BorderRadius.all(Radius.circular(50.0)),
+      gradient: LinearGradient(colors: [
+        Colors.red,
+        Colors.pink,
+      ]),
       border: Border.all(
         color: Colors.red,
         width: 2.0,

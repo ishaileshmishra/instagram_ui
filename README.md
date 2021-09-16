@@ -1,6 +1,6 @@
 # Instagram ui design in flutter by @ishaileshmishra
 
-A new Flutter project.
+######A new Flutter project. ( 30 minute challenge )
 
 ## Getting Started
 
