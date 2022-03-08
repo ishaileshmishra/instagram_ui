@@ -3,7 +3,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:instagram/src/conponents/networkImages.dart';
-import 'package:instagram/src/model/iconmodels.dart';
+import 'package:instagram/src/model/status_model.dart';
 
 class StoryUsers extends StatelessWidget {
   @override
@@ -13,19 +13,19 @@ class StoryUsers extends StatelessWidget {
           name: 'Your story',
           icon:
               'https://miro.medium.com/fit/c/262/262/1*TFcPuMbp34csFMeWOymn_A.png'),
-      IconModels(name: 'mishradev', icon: 'http://i.imgur.com/QSev0hg.jpg'),
-      IconModels(name: 'instatech', icon: 'https://i.imgur.com/vrBCHBQ.png'),
-      IconModels(name: 'lovingdoc', icon: 'https://i.imgur.com/8z1zTUr.png'),
-      IconModels(name: 'maintropolo', icon: 'https://i.imgur.com/bYMFaq9.jpeg'),
+      IconModels(name: 'thetechguy', icon: 'http://i.imgur.com/QSev0hg.jpg'),
+      IconModels(name: 'lovingbird', icon: 'https://i.imgur.com/vrBCHBQ.png'),
+      IconModels(name: 'monakasona', icon: 'https://i.imgur.com/8z1zTUr.png'),
+      IconModels(name: 'therajpoot', icon: 'https://i.imgur.com/bYMFaq9.jpeg'),
       IconModels(
-          name: 'iamtheshankar', icon: 'https://i.imgur.com/btaOetV.jpeg'),
-      IconModels(name: 'hulala', icon: 'https://i.imgur.com/wfymSmb.jpeg'),
+          name: 'iamthedeveloper', icon: 'https://i.imgur.com/btaOetV.jpeg'),
+      IconModels(name: 'letsflutter', icon: 'https://i.imgur.com/wfymSmb.jpeg'),
       IconModels(
-          name: 'ramlalthakur', icon: 'https://i.imgur.com/bYMFaq9.jpeg'),
+          name: 'justfakingusername', icon: 'https://i.imgur.com/bYMFaq9.jpeg'),
     ];
 
     return Container(
-      height: 120,
+      height: 100,
       child: ListView.builder(
           itemCount: names.length,
           scrollDirection: Axis.horizontal,
@@ -36,8 +36,11 @@ class StoryUsers extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  roundNetworkImageIcon(names[index].icon, 80.0),
-                  Text(names[index].name)
+                  roundNetworkImageIcon(names[index].icon, 70.0),
+                  Text(
+                    names[index].name,
+                    style: TextStyle(fontSize: 12),
+                  )
                 ],
               ),
             );

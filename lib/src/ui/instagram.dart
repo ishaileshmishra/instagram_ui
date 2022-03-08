@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram/src/conponents/complete_post.dart';
 import 'package:instagram/src/conponents/instarow.dart';
@@ -7,14 +6,14 @@ import 'package:instagram/src/conponents/story_user.dart';
 // developed by ishaileshmishra
 // date 16 sept
 
-class InstagramHome extends StatefulWidget {
-  InstagramHome({Key? key}) : super(key: key);
+class InstagramFeed extends StatefulWidget {
+  InstagramFeed({Key? key}) : super(key: key);
 
   @override
-  _InstagramHomeState createState() => _InstagramHomeState();
+  _InstagramFeedState createState() => _InstagramFeedState();
 }
 
-class _InstagramHomeState extends State<InstagramHome> {
+class _InstagramFeedState extends State<InstagramFeed> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

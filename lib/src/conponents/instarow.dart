@@ -2,8 +2,6 @@ import 'package:flutter/cupertino.dart';
 // developed by ishaileshmishra
 // date 16 sept
 
-import 'package:flutter/material.dart';
-
 class WidgetInstaRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
