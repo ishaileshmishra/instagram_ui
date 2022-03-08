@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:instagram/src/ui/instagram.dart';
 
 void main() {
@@ -8,7 +9,7 @@ void main() {
 class InstagramApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Instagram',
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.light(),

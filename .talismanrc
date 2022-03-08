@@ -1,0 +1,7 @@
+threshold: medium
+
+fileignoreconfig:
+  - filename: .dccache
+    checksum: 48fb31e78fb475ffd8a89a46cd49a4bbea97f5e90c5468b5c87841737c94bfc8
+  - filename: lib/src/ui/instagram.dart
+    checksum: 73e0b2a4350fc283680d62d7cd24170fa34fa60c165717e5040749d9e70c2296

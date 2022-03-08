@@ -55,7 +55,7 @@ class _InstagramFeedState extends State<InstagramFeed> {
                       postImage:
                           'https://images.pexels.com/photos/1839904/pexels-photo-1839904.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'),
                   aCompletePostSection(
-                      username: "sarveshmishra",
+                      username: "isarveshmishra",
                       thumbnail: 'http://i.imgur.com/QSev0hg.jpg',
                       postImage:
                           'https://images.pexels.com/photos/3680771/pexels-photo-3680771.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'),
